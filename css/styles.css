@@ -18,7 +18,7 @@ a:link {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
-  border: .05rem solid #fff;
+  border: 0.05rem solid #fff;
 }
 h1 {
   margin-bottom: 1rem;
@@ -35,15 +35,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  ;
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
 }
 
 .hello {
@@ -53,7 +51,6 @@ body {
 .cover-container {
   max-width: 60em;
 }
-
 
 /*
  * Header
@@ -67,16 +64,16 @@ body {
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -97,7 +94,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -105,7 +101,7 @@ body {
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   font-weight: 700;
 }
 
@@ -120,12 +116,12 @@ body {
 }
 
 .icons {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: 10px;
-  padding: .5rem .5rem .5rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
-.devicon-java-plain-wordmark {
+.devicon-java-plain {
   padding-right: 0;
   padding-left: 0;
 }
@@ -150,27 +146,26 @@ body {
   color: #fff !important;
   background-color: #485563 !important;
   text-shadow: none;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .btn-custom:hover {
   background-color: #29323c !important;
 
   text-shadow: none;
-  margin-bottom: .5rem;
-
+  margin-bottom: 0.5rem;
 }
-.edu{
+.edu {
   margin-top: 1.5rem;
 }
 .edu:hover {
   color: #687078;
 }
 .edu-text {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
- .footer {
-   text-align: center;
-   color: #ceddef;
-   font-size: 0.75rem;
-   padding: 20px 0 20px;
- }
+.footer {
+  text-align: center;
+  color: #ceddef;
+  font-size: 0.75rem;
+  padding: 20px 0 20px;
+}
